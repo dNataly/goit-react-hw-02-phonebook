@@ -5,7 +5,6 @@ import PropTypes from "prop-types";
 const FormButton = ({ type = "button", disabled = false, onClick, label }) => {
   return (
     <button
-      label="Delete"
       className={s.formBtn}
       type={type}
       disabled={disabled}
